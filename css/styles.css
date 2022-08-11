@@ -219,7 +219,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about-list {
@@ -263,8 +263,9 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.team-img {
-  margin-bottom: 30px;
+.team-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -280,7 +281,6 @@ body {
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* PORTFOLIO */
@@ -323,12 +323,14 @@ body {
 }
 
 .portfolio-item {
-  border: 1px solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-desc {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-title {
