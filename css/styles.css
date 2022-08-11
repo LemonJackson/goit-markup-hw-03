@@ -173,6 +173,8 @@ body {
 .hero {
   background-color: var(--dark-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -184,6 +186,9 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   margin-bottom: 30px;
+  width: 693px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -315,6 +320,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.portfolio-item {
+  border: 1px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-desc {
